@@ -1,8 +1,8 @@
-| Nom                             | Taiga User  | Git User    |
-| ------------------------------- | ----------- | ----------- |
-| Marc Castro Chavez              | @marcchavez | @marcchavez | 
-| Lluis Pujalte Feliu de Cabrera  | @llpfdc     | @llpfdc     | 
-| Paula Barrachina Cáceres        | @paulaabc   | @paulaabc   | 
-| Pablo Robledillo Valencia       | @PouEmo     | @PouEmoX    | 
+| Nom                             |  Git User    |
+| ------------------------------- |  ----------- |
+| Marc Castro Chavez              |  @marcchavez | 
+| Lluis Pujalte Feliu de Cabrera  |  @llpfdc     | 
+| Paula Barrachina Cáceres        |  @paulaabc   | 
+| Pablo Robledillo Valencia       |  @PouEmoX    | 
 
 
