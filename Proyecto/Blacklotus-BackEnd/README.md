@@ -6,6 +6,3 @@
 | Pablo Robledillo Valencia       | @PouEmo     | @PouEmoX    | 
 
 
-Django - https://tree.taiga.io/project/paulaabc-asw/timeline
-
-https://blacklotusapi.fly.dev/
