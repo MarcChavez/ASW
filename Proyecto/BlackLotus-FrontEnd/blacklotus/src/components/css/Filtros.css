@@ -1,0 +1,52 @@
+.Globalfiltros{
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+  
+  
+  .Filtros {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  
+  .Filtros input[type="radio"] {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+  }
+  
+  
+  .Filtros input[type="radio"]:checked {
+    color: #52b3d0;
+  }
+   .Filtros select {
+    width: 200px;
+    height: 100px;
+  }
+   .Filtros select option:checked {
+    background-color: lightblue;
+  }
+   .Globalfiltros button{
+    background-color: #f9f9fb;
+    color: #52b3d0;
+    width: 120px;
+    height: 33px;
+  }
+  
+  .Filtros ul {
+    padding: 0;
+    margin: 0;
+  }
+   .Filtros ul li {
+    padding: 0;
+    margin: 0;
+  }
+  
+  
+  select.MySelect option:checked {
+    background-color: lightblue;
+  }
+  

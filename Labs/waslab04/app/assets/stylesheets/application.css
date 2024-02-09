@@ -1,0 +1,97 @@
+
+ /** This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ html {
+  display: block;
+}
+
+body {
+    font-family: Arial,Helvetica,sans-serif;
+    color: #444444;
+    background-color: #fef7f7;
+    font-size: 12pt;
+}
+
+h1 {
+  color: #660000;
+  text-align: center;
+}
+
+h3 {
+  font-weight: normal;
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.walltweet {
+    color: #4d5e9b;
+    margin: auto;
+    border: 1px dashed #660000;
+    padding-left: 20px;
+    padding-top: 20px;
+    background-color: white;
+    width: 90%;
+}
+
+.tweetitem {
+	 border: 2px solid #dfcaca;
+	 margin: 20px auto;
+	 padding: 1em;
+	 width: 90%;
+	 background-color: white;
+}
+ .tweetitem .likes {
+	 float: left;
+	 width: 95px;
+	 margin-top: 0.2em;
+	 text-align: center;
+}
+ .tweetitem .likes .numlikes {
+	 font-weight: bold;
+	 color: mediumvioletred;
+	 font-size: 1.5em;
+}
+ .tweetitem .likes .smallfont {
+	 font-size: 9pt;
+}
+ .tweetitem .item {
+	 border-left: 2px solid #dfcaca;
+	 margin-left: 115px;
+	 padding-left: 1.1em;
+}
+ .tweetitem .item h4 {
+	 display: block;
+	 margin-block-start: 1.33em;
+	 margin-block-end: 1.80em;
+	 margin-inline-start: 0px;
+	 margin-inline-end: 0px;
+	 font-weight: bold;
+}
+ .tweetitem .item h4 em {
+	 font-style: italic;
+}
+ .tweetitem .destroy {
+	 text-align: center;
+}
+
+
+
+
+

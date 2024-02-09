@@ -1,0 +1,73 @@
+.commentArea{
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  
+  .cross-buttonComments{
+    width: 15px;
+    height: 15px;
+    background-image: url('../../../public/cross.png');
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+    fill:#70728f;
+    margin-left:.5rem;
+    display:inline;
+    transition:fill .2s linear
+  }
+  
+  
+  .save-buttonComments {
+    width: 15px;
+    height: 15px;
+    background-image: url('../../../public/save.png');
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+     fill:#70728f;
+    margin-left:.5rem;
+    display:inline;
+    transition:fill .2s linear
+  
+  }
+  
+  
+  .Commentwrapper{
+    margin-left:1rem;
+    width: 700px;
+    height: 48.2px;
+    border: 1px solid black;
+    padding: 5px;
+  }
+  
+  
+  .Commentinput {
+    background:#fff;
+    margin-left:1rem;
+    flex:1;
+    width: 907px;
+    height: 120px;
+    margin-top: .5rem;
+    display:inline;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: left;
+  }
+  
+  
+  .ButtonPositionComment {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 10px;
+  }
+   .ButtonPositionComment button {
+    margin-top: 5px;
+  }
+  

@@ -1,0 +1,135 @@
+.row-issue {
+    width: 110rem;
+    height: 3rem;
+    background-color: #f9f9fb;
+    font-size: 1rem;
+    margin: 0.5rem;
+    display: flex;
+    border-radius: 0.5rem;
+}
+
+.row-issue-bloq {
+    width: 110rem;
+    height: 3rem;
+    background-color:#e4405740;
+    font-size: 1rem;
+    margin: 0.5rem;
+    display: flex;
+    border-radius: 0.5rem;
+}
+
+.row-issue-bloq:hover {
+    background: #c1253a40;
+    transition: background .2s ease-in;
+    
+}
+
+.row-issue:hover {
+    background: #eceff4;
+    transition: background .2s ease-in;
+    
+}
+
+.table {
+    margin-left: 5rem;
+}
+
+.issue-text{
+    width: 30rem;
+    height: 1.5rem;
+    margin-left: 3rem;
+    margin-right: 10rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.issue-status{
+    width: 8rem;
+    height: 1.5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.issue-date{
+    width: 6rem;
+    height: 1.5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+
+.level-0 {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #4848ff;
+    border-radius: 50%;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.level-1 {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #1abd63;
+    border-radius: 50%;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.level-2 {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #d5f546;
+    border-radius: 50%;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.level-3 {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #eb56af;
+    border-radius: 50%;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.level-4 {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #ff3737;
+    border-radius: 50%;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+
+.issue-assign {
+    width: 3rem;
+    height: 1.5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 0.2rem;
+}
+
+.bulk-insert-comp {
+    margin-left: 107rem;
+}
+
+.orderBy {
+    margin-left: 8rem;
+}

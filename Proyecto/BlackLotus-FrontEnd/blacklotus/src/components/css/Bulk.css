@@ -1,0 +1,55 @@
+.lightboxBulk {
+    background-color: whitesmoke;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 98;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+  }
+.lightbox {
+  margin-left:50rem; 
+}
+.crossButtonBulk{
+    width: 60px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    background-image: url('../../../public/cross.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 16px;
+    margin-right: 30px;
+    right: 0;
+    position: absolute; 
+}
+
+.savebuttonBulk{
+    background-color: #83eede;
+    border: none;
+    color: #000;
+    width: 600px;
+    height: 41px;
+}
+
+.BulkStyle {
+    width: 32px;
+    height: 32px;
+    background-color: #d8dee9;
+    border: none;
+    background-image: url('../../../public/bulk.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30px;
+    margin-right: 30px;
+  }
+  
+
+.BulkIssues{
+    width: 600px;
+    height: 240px;
+}

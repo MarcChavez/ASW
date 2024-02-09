@@ -1,0 +1,389 @@
+.save-button {
+    width: 15px; /* Ajusta el tamaño según tus necesidades */
+    height: 15px;
+    background-image: url('../../../public/save.png'); /* Ruta a la imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen */
+    background-color: transparent;
+    border: none;
+     fill:#70728f;
+    margin-left:.5rem;
+    display:inline;
+    transition:fill .2s linear
+    /* Otros estilos según tus necesidades */
+  }
+
+  .cross-button {
+    width: 15px; /* Ajusta el tamaño según tus necesidades */
+    height: 15px;
+    background-image: url('../../../public/cross.png'); /* Ruta a la imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen */
+    background-color: transparent;
+    border: none;
+    fill:#70728f;
+    display:inline;
+    transition:fill .2s linear
+    /* Otros estilos según tus necesidades */
+  }
+
+  .subject-id-wrapper {
+    margin-left:1rem;
+  }
+
+  .issue-page {
+    margin-left:5rem;
+    margin-top: 2rem;
+    /* width: 850px; Ajusta el tamaño según tus necesidades */
+    height: 150px;
+    display: flex;
+    flex-direction: column; /* Los hijos se apilan verticalmente */
+}
+
+.issue-page-des {
+  margin-left:5rem;
+  margin-top: 5rem;
+  /* width: 850px; Ajusta el tamaño según tus necesidades */
+  height: 150px;
+  display: flex;
+  flex-direction: column; /* Los hijos se apilan verticalmente */
+}
+
+.edit-issue-input {
+    background:#fff;
+    margin-left:1rem;
+    flex:1;
+    width: 500px; /* Ajusta el tamaño según tus necesidades */
+    height: 35.6px;
+    margin-top: .5rem;
+    display:inline;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.issue-subject {
+    color:#2e3440;
+    flex-grow:1;
+    font-size: 30px;
+    word-break:break-word
+}
+
+.id-issue { 
+    font-family:Ubuntu-Medium,Arial,Helvetica,sans-serif;
+    font-weight:500;
+    font-size: 40px;
+    color:#008aa8;
+    margin-right:.5rem
+}
+
+.detail-title-text {
+    align-items:baseline;
+    color:#2e3440;
+    display:flex;
+    line-height:2rem;
+    margin:0
+}
+
+.issue-pfp img {
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.issue-texts h4 {
+color:#008aa8;
+font-size: 15px;
+flex-basis: 50%;
+}
+
+.issue-pfp {
+    color: #888;
+    font-size: 20px;
+    padding: 10px;
+    flex-grow: 1;
+}
+
+.subheader {
+    margin-left: auto;
+    display: flex;
+    padding-top: 25px;
+}
+
+.date {
+    font-size: 15px;
+}
+
+.issue-description{
+    color:#2e3440;
+    flex-grow:1;
+    font-size: 15px;
+    word-break:break-word;
+    text-align: justify;
+}
+
+.description-id-wrapper{
+    margin-left:1rem;
+    width: 650px; /* Ajusta el tamaño según tus necesidades */
+    height: 50px;
+}
+
+.edit-issue-description {
+    background:#fff;
+    margin-left:1rem;
+    flex:1;
+    width: 650px; /* Ajusta el tamaño según tus necesidades */
+    height: 100px;
+    margin-top: .5rem;
+    display:inline;
+    vertical-align: top;
+}
+
+/*-------------------------------------------------*/
+.attachments-header {
+    align-content:center;
+    align-items:center;
+    background:#eceff4;
+    display:flex;
+    justify-content:space-between;
+}
+
+.attachments-title{
+    font-family:Ubuntu-Medium,Arial,Helvetica,sans-serif;
+    color:#4c566a;
+    line-height:36px;
+    padding:0 1rem;
+    font-size: 20px;
+}
+   .attachments-header .options {
+    display:flex
+   }
+   .attachments-header label {
+    cursor:pointer;
+    margin-left:.25rem
+   }
+   .attachments-header label.add-attachment-button {
+    border:0;
+    display:inline-block;
+    padding:.5rem
+   }
+  
+.single-attachment h5{
+    align-items:center;
+    position: relative;
+    flex-grow: 1;
+    margin-left:10px;
+}
+
+.single-attachment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.attachment-list {
+    justify-content:space-between;
+    border-bottom:1px solid #f9f9fb;
+    min-height:2px;
+    margin-top: 7px;
+}
+
+.delete-button-atachment {
+    width: 25px; /* Ajusta el tamaño según tus necesidades */
+    height: 25px;
+    background-image: url('../../../public/papelera.png'); /* Ruta a la imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen */
+    background-color: transparent;
+    border: none;
+    fill:#70728f;
+    margin-right:30px;
+    display:inline;
+    transition:fill .2s linear
+}
+
+.add-button-atachment {
+    width: 25px; /* Ajusta el tamaño según tus necesidades */
+    height: 25px;
+    background-image: url('../../../public/add.png'); /* Ruta a la imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen */
+    background-color: #6cd1f9;
+    border: none;
+    margin-right:30px;
+    display:inline;
+    pointer-events: none;
+    transition:fill .2s linear
+}
+
+.file-label {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .hidden-file-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+  
+  .disable-button {
+    width: 25px;
+    height: 25px;
+    background-image: url('../../../public/add.png');
+    background-size: cover;
+    background-color: #6cd1f9;
+    border: none;
+    margin-right: 30px;
+    display: inline;
+    transition: fill .2s linear;
+  }
+
+.ticket-title {
+    font-size:1.4rem;
+    font-family:Ubuntu-Regular,Arial,Helvetica,sans-serif;
+    text-transform:uppercase;
+    vertical-align:sub;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+.status-header {
+    display: flex;
+    align-items: center;
+  }
+
+  
+.select-status {
+    flex-grow: 0;
+    color: #fff;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+  }
+
+  .select-type {
+    color: #000;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    outline: none;
+    background: transparent;
+    background-image: none;
+    width: 90px;
+  }
+
+.circle-type {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 10px;
+  }
+  
+.typeOption{
+    padding-top: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.severityOption{
+    padding-top: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.priorityOption{
+padding-top: 2px;
+}
+
+.labelTypes
+{
+    font-size: 12px;
+    color:#70728f;
+    text-transform:lowercase;
+    width: 10px;
+}
+
+.container-label-color {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+ .history-tabs {
+    background:#f1f1f4;
+    display:flex;
+    flex-direction:row;
+   }
+   .history-tabs a {
+    display:inline-block;
+    padding:.75rem 1rem
+   }
+   .history-tabs a:hover {
+    color:#25a28c
+   }
+
+   .history-tabs a{
+    cursor: pointer;
+   }
+
+   .history-tabs .history-tab {
+    font-family:Ubuntu-Medium,Arial,Helvetica,sans-serif;
+    border-bottom:3px solid transparent;
+    text-decoration: none;
+    color:#000000;
+    transition:all .1s linear
+   }
+ 
+   .history-tabs .history-tab-active {
+    border-bottom:3px solid #564343;
+    color:#434456
+   }
+
+   .MainContainer {
+    display: flex;
+  }
+  
+  .main-div {
+    flex-basis: 70%;
+  }
+  
+  .side-bar {
+    margin-left: 20px;
+    flex-basis: 30%;
+    background-color: #f9f9fb;
+  }
+
+  .sub-side-bar{
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+
+  .button-options {
+    display: flex;
+  }
+  
+  .deadline {
+    margin-right: 10px; /* Ajusta el margen entre los botones según tus necesidades */
+  }
+
+  .block {
+    margin-right: 10px; /* Ajusta el margen entre los botones según tus necesidades */
+  }
+  
+
+  .deleteIssue {
+    width: 40px;
+    height: 40px;
+    background-color: #eceff4;
+    background-image: url('../../../public/papelera.png'); /* Ruta a la imagen */
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25px;
+  }
+  
+  
+

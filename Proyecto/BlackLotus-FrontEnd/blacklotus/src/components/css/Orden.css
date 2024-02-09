@@ -1,0 +1,33 @@
+.container {
+    text-align: center;
+  }
+  
+  .sortOptions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .arrowUpStyle {
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff;
+    border: none;
+    background-image: url('../../../public/arrowUp.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10px;
+    margin-right: 30px;
+  }
+
+  .arrowDownStyle {
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff;
+    border: none;
+    background-image: url('../../../public/arrowDown.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10px;
+    margin-right: 30px;
+  }

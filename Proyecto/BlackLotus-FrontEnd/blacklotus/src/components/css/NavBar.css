@@ -1,0 +1,72 @@
+.bar nav {
+    border-top: 1px solid #e2e3e9;
+    border-bottom: 1px solid #e2e3e9;
+    background-color: #ffffff;
+    padding-top: 0.5rem;
+    width: 60rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-bottom: 0.5rem;
+
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 4px;
+
+}
+
+nav a.active {
+    background-color: #333;
+    color: #fff;
+}
+
+nav a:hover {
+    background-color: #eee;
+}
+
+.profile-activity-pfp img {
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.profile-activity-pfp {
+    margin-right: 1rem;
+    width: 3rem;
+}
+
+.profile-activity-text {
+    width: 30rem;
+    margin-right: 3rem;
+}
+
+.profile-activity {
+    display: flex;
+    padding: 20px;
+}
+
+.profile-activity-text h4 {
+    color: #888;
+    font-size: 15px;
+    flex-grow: 1;
+}
+
+
+  

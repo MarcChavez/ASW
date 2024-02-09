@@ -1,0 +1,135 @@
+
+.containerSubjectCrea {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .descriptionContainerCrea
+  {
+    margin-top: 20px;
+    width: 400px;
+    height: 300px;
+  }
+
+  .subjectContainerCrea
+  {
+    width: 400px;
+  }
+
+  .status-dropdownCrea {
+    flex-grow: 0;
+    background-color: #70728f;
+    
+    border: none;
+    align-content:center;
+    color:#fff;
+    cursor:pointer;
+    display:flex;
+    padding:.5rem 2rem;
+    width:100%;
+   }
+
+   .containerCrea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .top-divCrea {
+    padding: 10px;
+  }
+  
+  .bottom-divsCrea {
+    display: flex;
+  }
+  
+  .left-bottom-divCrea {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .right-bottom-divCrea {
+    flex: 1;
+    padding-left: 20px;
+    padding: 10px;
+  }
+  
+  .bottom-divCrea {
+    padding: 10px;
+  }
+
+  .create-buttonCrea{
+    width: 605px;
+    height: 40px;
+    background-color: #83eede;
+  }
+
+  .circle-typeCrea{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+
+  .select-type-containerCrea {
+    color: #000;
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: #b9bbc0;
+    -moz-appearance: none;
+    border: none;
+    outline: none;
+    background: transparent;
+    background-image: none;
+    flex: 1;
+  }
+
+  .container-label-colorCrea {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+}
+
+.severityOptionCrea {
+    padding-top: 2px;
+}
+
+.labelTypesCrea
+{
+    font-size: 12px;
+    color:#70728f;
+    text-transform:lowercase;
+    flex: 1;
+    padding-top: 5px;
+}
+
+.container-typesCrea{
+    display: flex;
+    padding-top: 15px;
+}
+
+.container-externalCrea {
+  position: relative;
+  height: 100vh;
+}
+
+
+.cross-buttonCrea {
+  width: 15px; 
+  height: 15px;
+  background-image: url('../../../public/cross.png'); 
+  background-size: cover; 
+  background-color: transparent;
+  border: none;
+  fill:#70728f;
+  display:inline;
+  transition:fill .2s linear;
+  margin-left: 200px;
+}
+
+
+.header-containerCrea {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}

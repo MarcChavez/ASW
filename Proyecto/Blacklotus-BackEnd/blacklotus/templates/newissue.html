@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+{% block content %}
+
+	<form method="post">
+    {% csrf_token %}
+	<h1 class="walltitle">Nueva petición</h1>
+	<div class="wallissues">
+	<table border=0 cellpadding=2>
+		<tr>
+			<td><input name="subject" placeholder="Subject" type="text" size=30></td>
+			<td>
+				<select name="status">
+					<option value=1>New </option>
+					<option value=2>In progress</option>
+					<option value=3>Ready for test</option>
+					<option value=4>Closed</option>
+					<option value=5>Needs info</option>
+					<option value=6>Rejected</option>
+					<option value=7>Postponed</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td><textarea name="description" rows="15" cols="30" placeholder="Por favor, añade un texto descriptivo que ayude a otros a entender mejor esta petición"></textarea></td>
+			<td>
+				<table border=0 cellpadding=2>
+					<tr>
+						<td>
+							<select name  = "type">
+								<option value=1>Bug</option>
+								<option value=2>Question</option>
+								<option value=3>Disabled</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<select name = "severity">
+								<option value=1>Whishlist </option>
+								<option value=2>Minor</option>
+								<option value=3>Normal</option>
+								<option value=4>Important</option>
+								<option value=5>Critical</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<select name="priority">
+							<option value=1>Low </option>
+							<option value=2>Normal</option>
+							<option value=3>High</option>
+							</select></td>
+					</tr>
+					</table>
+			<tr><td><input type="submit" name="crea" value="CREAR"></td></tr>
+		</table>
+	</div>
+	</form>
+
+{% endblock %}
